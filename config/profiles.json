@@ -1,0 +1,14 @@
+{
+    "profiles": [
+        {
+            "name": "The Long Hunt",
+            "host": "FTP.gameserver.com",
+            "port": 21,
+            "username": "FTP_Username",
+            "password": "Password",
+            "tls": false,
+            "root": "/dayzstandalone"
+        }
+    ],
+    "active_profile": "The Long Hunt"
+}
