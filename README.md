@@ -1,5 +1,6 @@
 # DayZ-AutomationZ-Uploader-FTP-Tool
 This tool uploads preset files to your DayZ server via FTP/FTPS. It is NOT a DayZ mod and is NOT added to server parameters.
+[![Day-Z-Automation-Z-(1).png](https://i.postimg.cc/cC0H7Jh0/Day-Z-Automation-Z-(1).png)](https://postimg.cc/PpVTTT0R)
 
 ## Short Introduction
 DayZ AutomationZ Uploader is a lightweight, server-side automation tool designed to make managing configuration files across one or many servers fast, safe, and repeatable.  
