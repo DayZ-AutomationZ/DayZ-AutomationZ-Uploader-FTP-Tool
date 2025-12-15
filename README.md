@@ -64,10 +64,14 @@ Example:
 presets/
  ├─ raid_on/
  │   ├─ BBP_Raid_on.json
- │   └─ messages.xml
+ │   └─ BBP_Raid_on_2.json (just a example, whatever you name the files it will only fill the content of the file in the remote path.)
+
+        (So BBP_Raid_on.json or BBP_Raid_on_2.json will write its contents to BBP_Settings.json and optionally creates a backup before upload, it will never rename the file or create a new copy unless you made a typo somewhere.
+        then it simply creates a new file. So double check the file name in the remote path at mappings! Its case sensitive. Path and file need to match exactly.
+        This way you can make multiple loadouts like 1 for each day or multiple Messages / notification in game for each day etc.)
  ├─ raid_off/
  │   ├─ BBP_Raid_off.json
- │   └─ messages.xml
+ │   └─ BBP_Raid_off_2.json
 ```
 
 You select **one preset at a time**.
