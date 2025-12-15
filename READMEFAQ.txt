@@ -1,59 +1,37 @@
-❓ FAQ — “Is this really automation if I still click upload?”
+## FAQ — Is this really automation?
 
 Yes. AutomationZ automates the process, not the timing.
 
 AutomationZ is designed to remove repetitive, error-prone manual work, not to make decisions for you.
 
-Before AutomationZ, updating a server typically meant:
-
-logging into FTP
-
-navigating folders manually
-
-remembering exact filenames
-
-risking typos (BBP vs BPP, case sensitivity)
-
-manually creating backups (or forgetting)
-
-repeating the same steps for multiple servers
+Before AutomationZ, changing server settings usually meant logging into FTP, navigating directories manually, remembering exact filenames and paths, risking typos (BBP vs BPP, case sensitivity), manually creating backups (or forgetting), and repeating the same steps across multiple servers.
 
 AutomationZ automates all of that into one predefined, repeatable operation.
 
-When you click Upload, AutomationZ automatically:
+When you click **Upload**, AutomationZ automatically selects the correct local files from the chosen preset, maps them to the correct remote paths, ensures exact filename matching, optionally backs up existing server files, and uploads consistently across one or many servers.
 
-selects the correct local files from a preset
+The server owner still decides when to execute it. This keeps control in human hands, actions predictable, and servers safe from unintended changes.
 
-maps them to the correct remote paths
+AutomationZ focuses on controlled, safe automation, not unattended execution.
 
-ensures exact filename matching
+## FAQ — What AutomationZ does NOT do
 
-optionally backs up existing server files
+AutomationZ is intentionally focused. To avoid confusion, here is what it does NOT do.
 
-uploads consistently across one or many servers
+### It does NOT run by itself
+AutomationZ does not run on timers, execute scheduled jobs by default, or apply changes without confirmation. Every action requires an explicit Upload click. This is intentional.
 
-The server owner still decides when to run it — intentionally.
+### It does NOT modify gameplay or server logic
+AutomationZ does not inject code, modify binaries, hook into game engines, or alter gameplay behavior. It only uploads files you already control.
 
-This design keeps:
+### It is NOT a game mod
+AutomationZ is not loaded by the game, is not added to server startup parameters, does not require players to download anything, and does not affect client performance. It operates entirely outside the game.
 
-full control in human hands
+### It does NOT replace server administration
+AutomationZ does not decide when raids start, which rules are active, or how a server is moderated. Those decisions remain with the server owner. AutomationZ ensures execution is correct, not that decisions are made.
 
-actions predictable and reversible
+### It does NOT hide mistakes silently
+AutomationZ is transparent by design. Missing files are shown clearly, mappings must match exactly, overwrites only occur on exact filename matches, and backups are explicit and visible.
 
-servers safe from unintended changes
-
-AutomationZ focuses on controlled, safe automation, not unattended or time-based automation.
-
-Why not fully automatic or scheduled by default?
-
-Fully automatic systems (timers, cron jobs) can:
-
-apply changes at the wrong moment
-
-be harder to debug
-
-cause damage without confirmation
-
-AutomationZ is built for server owners, not unattended scripts.
-
-If you want full scheduling later, the architecture allows it — but it is deliberately not required to benefit from AutomationZ today.
+## In short
+AutomationZ automates how changes are applied, not when or why they are applied. That balance is what makes it reliable.
