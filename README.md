@@ -182,3 +182,5 @@ macOS should work with Python 3 + Tk installed.
 Created by **Danny van den Brande**  
 Built for server owners who value control, safety, and their free time.
 
+## License
+This project is licensed under the MIT License.
