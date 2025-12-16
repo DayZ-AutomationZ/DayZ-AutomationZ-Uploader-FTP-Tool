@@ -1,4 +1,4 @@
-# DayZ-AutomationZ-Uploader-FTP-Tool
+# DayZ-AutomationZ-Uploader-FTP-Tool [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R6R51QD7BU)
 This tool uploads preset files to your DayZ server via FTP/FTPS. It is NOT a DayZ mod and is NOT added to server parameters.
 [![02-profiles-tab.png](https://i.postimg.cc/nzFK5Wxx/02-profiles-tab.png)](https://postimg.cc/67PG4YTb)
 
